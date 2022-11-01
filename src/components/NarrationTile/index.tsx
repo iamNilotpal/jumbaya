@@ -25,15 +25,22 @@ const NarrationTile: React.FC<{ narration: Narration }> = ({ narration }) => {
             resizeMode="cover"
           />
         </LinearGradient>
+        <LinearGradient
+          colors={['#D7D6D5', '#828282']}
+          style={styles.border}
+          start={{ x: 0, y: 1 }}
+          end={{ y: 0, x: 1 }}
+        />
         <View style={styles.secondPage} />
         <View style={styles.thirdPage} />
         {/* {narration.scenes.length === 0 && (
           <ComingSoonOverlay
             containerStyle={{
-              width: '102%',
-              height: '103.5%',
+              width: '105%',
+              height: '103%',
               zIndex: 1000,
               left: -5,
+              top: -5,
               borderRadius: 2,
               borderTopRightRadius: 40,
               borderBottomRightRadius: 50,
