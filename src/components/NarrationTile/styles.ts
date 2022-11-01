@@ -46,9 +46,9 @@ export default StyleSheet.create({
 
   thirdPage: {
     bottom: -24,
-    width: '100%',
+    width: '93%',
     height: 40,
-    left: -1.5,
+    left: -1,
     position: 'absolute',
     backgroundColor: '#B8B8B8',
     transform: [{ rotateX: '70deg' }],
@@ -60,11 +60,11 @@ export default StyleSheet.create({
     position: 'absolute',
     width: '101%',
     height: 45,
-    top: -1.6,
+    top: -1.5,
     zIndex: 0,
     left: -2,
     borderTopRightRadius: 100000,
     borderBottomRightRadius: 100000,
-    transform: [{ skewY: '-0.8deg' }],
+    transform: [{ skewY: '-0.5deg' }],
   },
 });
