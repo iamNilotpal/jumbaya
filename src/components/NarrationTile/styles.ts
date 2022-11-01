@@ -5,13 +5,13 @@ export default StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#ffffff',
   },
 
   book: {
     width: 176,
     height: 198,
     position: 'relative',
+    elevation: 50,
   },
 
   bar: {
@@ -19,41 +19,44 @@ export default StyleSheet.create({
     width: 2,
     height: '100%',
     backgroundColor: 'rgba(0, 0, 0, 0.05)',
-    left: 15,
-    zIndex: 101,
+    left: 8,
+    zIndex: 30000,
   },
 
   firstPage: {
-    zIndex: 20,
+    zIndex: 2000,
     width: '100%',
     height: '100%',
-    elevation: 30,
     overflow: 'hidden',
     position: 'absolute',
-    borderTopRightRadius: 22,
-    borderBottomRightRadius: 22,
+    borderTopRightRadius: 21,
+    borderBottomRightRadius: 21,
+    elevation: 20,
   },
 
   secondPage: {
     left: -5,
     width: 8,
-    height: '105.7%',
+    height: '103.6%',
     position: 'absolute',
-    transform: [{ rotateY: '-45deg' }],
+    transform: [{ rotateY: '-47deg' }],
     backgroundColor: '#D64B93',
     borderBottomEndRadius: 30,
+    elevation: 10,
   },
 
   thirdPage: {
-    bottom: -24,
+    bottom: -25,
     width: '93%',
-    height: 40,
+    height: 45,
     left: -1,
+    zIndex: 1,
+    elevation: 50,
     position: 'absolute',
-    backgroundColor: '#B8B8B8',
-    transform: [{ rotateX: '70deg' }],
-    borderBottomRightRadius: 50,
     overflow: 'hidden',
+    backgroundColor: '#BFBFBF',
+    transform: [{ rotateX: '80deg' }],
+    borderBottomRightRadius: 50,
   },
 
   border: {

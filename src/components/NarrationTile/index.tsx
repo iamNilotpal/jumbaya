@@ -33,20 +33,20 @@ const NarrationTile: React.FC<{ narration: Narration }> = ({ narration }) => {
         />
         <View style={styles.secondPage} />
         <View style={styles.thirdPage} />
-        {/* {narration.scenes.length === 0 && (
+        {narration.scenes.length === 0 && (
           <ComingSoonOverlay
             containerStyle={{
-              width: '105%',
-              height: '103%',
-              zIndex: 1000,
+              width: '104%',
+              height: '105%',
+              zIndex: 40000,
               left: -5,
-              top: -5,
+              top: -3,
               borderRadius: 2,
-              borderTopRightRadius: 40,
-              borderBottomRightRadius: 50,
+              borderBottomRightRadius: 25,
+              borderTopRightRadius: 25,
             }}
           />
-        )} */}
+        )}
         <View style={styles.bar} />
       </View>
     </View>
